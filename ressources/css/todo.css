@@ -1,51 +1,37 @@
-.header{
+#core h1{
+  text-align: center;
+  margin-top: 17px;
+}
+#core nav{
+ 
   height: 70px;
 }
-#titre{
-font-size: 25px;
-font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+#core input{
+  width: 400px;
 }
-#ts{
-  height: 500px;
-  padding-top: 20px;
+#core ul{
+  margin-top: 20px;
 }
-#vide{
-  background-color: rgb(255, 195, 195);
+.new{
+  margin-top: 30px;
   height: 100px;
+border: 2px solid;border-radius: 5px;
 }
-
-.has-search .form-control {
-  padding-left: 2.375rem;
+.input-group{
+  height: 50px;
 }
-
-.has-search .form-control-feedback {
-  position: absolute;
-  z-index: 2;
-  display: block;
-  width: 2.375rem;
-  height: 2.375rem;
-  line-height: 2.375rem;
-  text-align: center;
-  pointer-events: none;
-  color: #aaa;
+#core button{
+  margin-top: 40px;
+  width: 500px;margin-left: 110px;background-color: green;
+ 
 }
-
-.modif{
-    cursor: pointer;
-    color: green;
-}
-.supp{
-    cursor: pointer;
-    color: red;
-
-}
-#deletall{
-  color: black;
-font-size: 26px;
-cursor: pointer;
-}
-#ajout{
-  color: black;
-  font-size: 26px;
+.icons{
+  float: right;
+  display: inline;
   cursor: pointer;
+}
+#core button{
+  margin-top: 40px;
+  width: 500px;margin-left: 50px;background-color: green;
+ 
 }
